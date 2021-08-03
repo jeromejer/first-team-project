@@ -1,0 +1,4 @@
+.two-columns__text {
+flex-basis: 50%;
+flex-grow: 0;
+}

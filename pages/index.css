@@ -1,0 +1,19 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/page/page.css");
+@import url("../blocks/header/header.css");
+
+@import url("../blocks/nav/nav.css");
+@import url("../blocks/nav/nav.css");
+@import url("../blocks/nav/nav__list/nav__list.css");
+@import url("../blocks/nav/nav__link/nav__link.css");
+@import url("../blocks/nav/nav__item/nav__item.css");
+
+@import url("../blocks/button/button.css");
+
+@import url("../blocks/welcome/welcome.css");
+@import url("../blocks/welcome/__title/welcome__title.css");
+@import url("../blocks/welcome/__subtitle/welcome__subtitle.css");
+
+@import url("../blocks/two-columns/two-columns.css");
+@import url("../blocks/two-columns/two-columns__img/two-columns__img.css");
+@import url("../blocks/two-columns/two-columns__text/two-columns__text.css");

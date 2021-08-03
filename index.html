@@ -4,41 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./vendor/fonts/fonts.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./vendor/fonts/fonts.css"> <!--нам точно еще bold понадобится подключи их сразу все пожалуйста-->
     <title>Куда я поеду</title>
 </head>
-<body class="page">
-    <section class="header">
-
-        <nav class="nav nav_header">
-            <ul class="nav__links">
-                <li class="nav__link"><a href="#" class="link_decoration">Мечты</a></li>
-                <li class="nav__link"><a href="#" class="link_decoration">Ожидания</a></li>
-                <li class="nav__link"><a href="#"class="link_decoration">Реальность</a></li>
+<!--давай сразу структуру css файлом соблюдать и сразу в нужные места 
+писать, иначе потом мучительно больно общий файл разбирать- зачем двойная работа
+А зачем 2 навигации? она одна и ссылками, потому что ссылки ведут на новые страницы. 
+А вот "пожаловаться", правильнее, наверное, кнопкой сделать, т.к. страница та же, а это вызов формы
+Вообще на будущее поменяй себе в настройках табуляцию на 2 пробела, а не 4,
+ так в кодгайде (или как это назыввается) Практикума указано, да и код красивее выглядит
+-->
+<body class="page"> 
+    <header class="header">
+        <nav class="nav"> <!--у нас ведь 1 навигация. зачем 2 класс?-->
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Мечты</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Ожидания</a></li>
+                <li class="nav__item"><a href="#"class="nav__link">Реальность</a></li>
             </ul>
-            <a href="#" class="nav__complain link_decoration">Пожаловаться</a>
         </nav>
-
-        <div class="content">
-            <div class="text">
-                <p class="content__text">Куда я поеду</p>
-                <h1>Куда я поеду сразу, как можно будет куда-то поехать </h1>
+        <button class="button button_service"><a href="#" class="nav__link">Пожаловаться</a></li> <!--service потому что в теории сюда можно добавить еще служ ссылок-->
+    </header>
+    <main>
+        <section class="welcome">
+            <div class="welcome__text two-columns__text">
+                <h1 class="welcome__title">Куда я поеду</h1>
+                <p class="welcome__subtitle">Куда я поеду сразу, как можно будет куда-то поехать</p> <!--это точно слишком пространно для заколовка первого уровня имхо-->
             </div>
-            <img src="./images/intro-image.jpeg" alt="Фото с изображением самолёта" class="content__img">
-        </div>
+            <img src="../team-project/images/intro-image.jpeg" alt="Фото с изображением самолёта" class="welcome__img two-columns__img"> 
+            <!--вот чтобы потом ссылки не переписывать, лучше сразу по бэм и соблюдать файловую структуру-->
+        </section>
+        <section class="forest two-columns">
+            <div class="two-columns__text">
+                <h2 class="forest__title two-columns__title">Поеду в лес</h2>
+                <p class="forest__paragraf two-columns__paragraf">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
+                <p class="forest__paragraf two-columns__paragraf">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть
+                    биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+            </div>
+            <img class="two-columns__img" src="./images/places-forest.jpeg" alt="Водопад в лесу">
+        </section>
+        <section class="mountains two-columns">
+            <div class="two-columns__text">
+                <h2 class="mountains__title two-columns__title">Поеду в горы</h2>
+                <p class="mountains__paragraf two-columns__paragraf">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы,
+                    22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности
+                    приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+            </div>            
+        </section>
+        <section class="sea two-columns">
+            <div class="two-columns__text">
+                <h2 class="sea__title two-columns__title">Поеду на Чёрное море</h2>
+                <p class="sea__paragraf two-columns__paragraf">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. 
+                    Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и 
+                    падать в это синее небо, я позову.</p>
+                <p class="sea__paragraf two-columns__paragraf">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на 
+                    Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+                <p class="sea__paragraf two-columns__paragraf">Уеду я.</p>
+            </div>
+        </section>
+        <section class="statements">
+            <h2 class="statements__title">Что говорят и говорили люди о путешествиях</h2>
 
 
-        <nav class="nav nav_bottom">
-            <ul class="nav__links">
-                <li class="nav__link"><a href="#" class="link_decoration">Мечты</a></li>
-                <li class="nav__link"><a href="#" class="link_decoration">Ожидания</a></li>
-                <li class="nav__link"><a href="#"class="link_decoration">Реальность</a></li>
-            </ul>
-            <a href="#" class="nav__complain link_decoration">Пожаловаться</a>
-        </nav>
+        </section>
+    </main>
+    <footer class="footer">
 
-    </section>
+    </footer>
+            
+
 </body>
 </html>

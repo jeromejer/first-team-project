@@ -1,0 +1,10 @@
+.header {
+/*лучше не ширигну в 90% ограничим, а сделаем отступы по 5%*/
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding: 46px 5%;
+ /*нет. Я конечно, не знаю, как с этим правильно работать c vh, но высоту точно нигде не фиксируем*/
+    display: flex;
+    justify-content: space-between;
+}
