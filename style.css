@@ -1,0 +1,78 @@
+.page {
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    font-family: 'Rubik';
+    font-style: normal;
+    background-image: url('./kuda-ya-poedu-29-5-20.png');
+    background-size: 100%;
+}
+
+.header {
+    width: 90%;
+    max-width: 1280px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_header {
+    margin: 46px 0 0;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__link {
+    list-style-type: none;
+    margin-left: 4px;
+}
+
+.nav__complain {
+    list-style-type: none;
+}
+
+.link_decoration {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 520px 356px;
+    gap: 185px;
+    margin: 85px 0 0;
+    align-items: center;
+}
+
+
+.content__img {
+    width: 356px;
+    height: 356px;
+    object-fit: cover;
+}
+
+.nav_bottom {
+    margin: 173px 0 0;
+}
+
+
+.content__text {
+    text-transform: uppercase;
+    color: #fed2b0;
+    font-size: 12px;
+}
