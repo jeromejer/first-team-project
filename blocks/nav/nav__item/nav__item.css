@@ -1,3 +1,10 @@
 .nav__item {
 margin-right: 39px; 
 }
+@media (max-width : 768px) {
+
+.nav__item {
+  margin: 0;
+
+  }
+}

@@ -7,6 +7,9 @@
 @import url("../blocks/nav/nav__list/nav__list.css");
 @import url("../blocks/nav/nav__link/nav__link.css");
 @import url("../blocks/nav/nav__item/nav__item.css");
+@import url("../blocks/nav/nav__toggle/nav__toggle.css");
+@import url("../blocks/nav/nav__burger/nav__burger.css");
+@import url("../blocks/nav/nav__burger-icon/nav__burger-icon.css");
 
 @import url("../blocks/button/button.css");
 

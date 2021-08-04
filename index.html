@@ -7,20 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="stylesheet" href="./vendor/fonts/fonts.css">
-    <!--нам точно еще bold понадобится подключи их сразу все пожалуйста-->
     <title>Куда я поеду</title>
 </head>
-<!--давай сразу структуру css файлом соблюдать и сразу в нужные места 
-писать, иначе потом мучительно больно общий файл разбирать- зачем двойная работа
-А зачем 2 навигации? она одна и ссылками, потому что ссылки ведут на новые страницы. 
-А вот "пожаловаться", правильнее, наверное, кнопкой сделать, т.к. страница та же, а это вызов формы
-Вообще на будущее поменяй себе в настройках табуляцию на 2 пробела, а не 4,
- так в кодгайде (или как это назыввается) Практикума указано, да и код красивее выглядит
--->
-
 <body class="page">
         <header class="header">
             <nav class="nav">
+                <input class="nav__toggle" id="nav__toggle" type="checkbox">
+                <label class="nav__burger" for="nav__toggle">
+                  <div class="nav__burger-icon"></div>
+                </label>
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#" class="nav__link">Мечты</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Ожидания</a></li>
@@ -32,58 +27,12 @@
                 <div class="welcome__text two-columns__text">
                     <h1 class="welcome__title">Куда я поеду</h1>
                     <p class="welcome__subtitle">Куда я поеду сразу, как можно будет куда-то поехать</p>
-                    <!--это точно слишком пространно для заколовка первого уровня имхо-->
                 </div>
                 <img src="../team-project/images/intro-image.jpeg" alt="Фото с изображением самолёта"
                     class="welcome__img two-columns__img">
             </section>
         </header>
     <main>
-       <!--- <section class="forest two-columns">
-            <div class="two-columns__text">
-                <h2 class="forest__title two-columns__title">Поеду в лес</h2>
-                <p class="forest__paragraf two-columns__paragraf">Лес — экологическая система, биоценоз, в которой
-                    главной жизненной формой являются деревья.</p>
-                <p class="forest__paragraf two-columns__paragraf">Лес — составная часть природы, понятие «лес» можно
-                    рассматривать на разных уровнях. В глобальном масштабе — это часть
-                    биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
-            </div>
-            <img class="two-columns__img" src="./images/places-forest.jpeg" alt="Водопад в лесу">
-        </section>
-        <section class="mountains two-columns">
-            <div class="two-columns__text">
-                <h2 class="mountains__title two-columns__title">Поеду в горы</h2>
-                <p class="mountains__paragraf two-columns__paragraf">Горные системы занимают 64 % поверхности Азии, 36 %
-                    — Северной Америки, 25 % — Европы,
-                    22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности
-                    приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство
-                    рек Земли.</p>
-            </div>
-        </section>
-        <section class="sea two-columns">
-            <div class="two-columns__text">
-                <h2 class="sea__title two-columns__title">Поеду на Чёрное море</h2>
-                <p class="sea__paragraf two-columns__paragraf">Я уплыву туда, где ни разу я не был, туда, где никто
-                    раньше не был.
-                    Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее
-                    небо, и
-                    падать в это синее небо, я позову.</p>
-                <p class="sea__paragraf two-columns__paragraf">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на
-                    Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное
-                    море.</p>
-                <p class="sea__paragraf two-columns__paragraf">Уеду я.</p>
-            </div>
-        </section>
-        <section class="statements">
-            <h2 class="statements__title">Что говорят и говорили люди о путешествиях</h2>
-
-
-        </section>
-    </main>
-    <footer class="footer">
-
-    </footer> --->
-
     <section class="main">
         <div class="two-columns">
                 <img src="./images/places-forest.jpeg" alt="Фотография водопада" class="place__image">

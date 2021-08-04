@@ -1,0 +1,8 @@
+.nav__burger {
+  display: none;
+}
+@media (max-width : 768px) {
+  .nav__burger {
+    display: block;
+  }
+}
