@@ -1,10 +1,22 @@
 @font-face {
-    font-family: 'Rubik';
-    src: url('./Rubik/Regular/Rubik-Regular.eot');
-    src: url('./Rubik-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./Rubik-Regular.woff2') format('woff2'),
-        url('./Rubik-Regular.woff') format('woff'),
-        url('./Rubik-Regular.ttf') format('truetype');
+    font-family: 'Golos Text';
+    src: url('./GolosText-Bold/GolosText-Bold.eot');
+    src: url('./GolosText-Bold/GolosText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./GolosText-Bold/GolosText-Bold.woff2') format('woff2'),
+        url('./GolosText-Bold/GolosText-Bold.woff') format('woff'),
+        url('./GolosText-Bold/GolosText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    src: url('./GolosText-Regular/GolosText-Regular.eot');
+    src: url('./GolosText-Regular/GolosText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./GolosText-Regular/GolosText-Regular.woff2') format('woff2'),
+        url('./GolosText-Regular/GolosText-Regular.woff') format('woff'),
+        url('./GolosText-Regular/GolosText-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
