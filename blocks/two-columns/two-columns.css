@@ -1,4 +1,6 @@
 .two-columns {
-  display: flex;
- 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  padding-top: 130px;
 }

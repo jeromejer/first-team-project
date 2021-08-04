@@ -1,6 +1,8 @@
 .welcome__title {
-  width: 100%;
   text-transform: uppercase;
   color: #fed2b0;
-   font-size: 12px;
+  font-size: 12px;
+  margin: 0;
+  line-height: 15px;
+  margin-bottom: 30px;
 }

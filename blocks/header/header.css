@@ -2,9 +2,7 @@
     width: 100%;
     max-width: 1280px;
     box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    margin: 57px 6%;
+    margin: 0 auto;
     font-size: 14px;
     font-weight: bold;
 }
