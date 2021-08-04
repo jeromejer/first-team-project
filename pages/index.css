@@ -25,3 +25,26 @@
 @import url("../blocks/place/__text/place__text.css");
 @import url("../blocks/place/__image/place__image.css");
 @import url("../blocks/place/__paragraph/place__paragraph.css");
+
+@import url("../blocks/people-says/people-says.css");
+@import url("../blocks/people/people.css");
+@import url("../blocks/people/__text/people__text.css");
+@import url("../blocks/people/__title/people__title.css");
+@import url("../blocks/people/__subtitle/people__subtitle.css");
+@import url("../blocks/people-grid/people-grid.css");
+@import url("../blocks/people-grid/__column/people-grid__column.css");
+@import url("../blocks/people-grid/__name/people-grid__name.css");
+@import url("../blocks/people-grid/__text/people-grid__text.css");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+
+@import url("../blocks/form/form.css");
+@import url("../blocks/form/__textarea/form__textarea.css");
+@import url("../blocks/form/__text/form__text.css");
+@import url("../blocks/form/__inputs/form__inputs.css");
+@import url("../blocks/form/__content/form__content.css");
+@import url("../blocks/form/__complain/form__complain.css");
+@import url("../blocks/form/__close/form__close.css");
+@import url("../blocks/form/__buttons/form__buttons.css");
+@import url("../blocks/form/__button/form__button.css");

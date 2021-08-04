@@ -1,0 +1,9 @@
+.people__title {
+    text-transform: uppercase;
+    color: #fed2b0;
+    font-size: 9px;
+    margin: 0;
+    line-height: 15px;
+    margin-bottom: 30px;
+    font-family: 'Inter';
+}

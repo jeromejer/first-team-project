@@ -4,5 +4,7 @@
   margin: 0;
   padding: 0;
   margin-bottom: 0;
-  line-height: 45px;
+  line-height: 43px;
+  font-weight: bold;
+  letter-spacing: 0.15px;
 }

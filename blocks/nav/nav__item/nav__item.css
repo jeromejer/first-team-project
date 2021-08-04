@@ -1,3 +1,8 @@
 .nav__item {
-margin-right: 39px; 
+  margin-right: 39px;
+  transition: opacity .2s;
+}
+
+.nav__item:hover {
+    opacity: .6;
 }

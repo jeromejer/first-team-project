@@ -1,9 +1,9 @@
 .welcome {
-    max-width: 89.2%;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 85px;
     justify-items: center;
     gap: 75px;
+    max-width: 89.2%;
+    margin: 0 auto;
 }

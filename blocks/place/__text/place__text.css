@@ -1,7 +1,8 @@
 .place__text {
-    margin: 63px auto 85px 70px;
+    padding: 63px 70px 85px 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #a6a6a6;
+    color: black;
+    background-color: #f2f2f2;
 }
