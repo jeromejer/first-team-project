@@ -1,8 +1,8 @@
-.button__img {
+.nav__letter-img {
   display: none;
 }
 @media (max-width: 768px) {
-  .button__img{
+  .nav__letter-img{
     display: block;
     position: fixed;
     top: 15px;

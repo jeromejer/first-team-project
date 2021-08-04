@@ -12,10 +12,10 @@
 @import url("../blocks/nav/__burger/nav__burger.css");
 @import url("../blocks/nav/__burger-icon/nav__burger-icon.css");
 
-@import url("../blocks/button/button.css");
+@import url("../blocks/nav/__button/nav__button.css");
 
-@import url("../blocks/button/button__text/button__text.css");
-@import url("../blocks/button/__img/button__img.css");
+@import url("../blocks/nav/__letter-text/nav__letter-text.css");
+@import url("../blocks/nav/__letter-img/nav__letter-img.css");
 
 @import url("../blocks/welcome/welcome.css");
 @import url("../blocks/welcome/__text/welcome__text.css");
@@ -47,6 +47,7 @@
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 
 @import url("../blocks/form/form.css");
+@import url("../blocks/form/_active/form_active.css");
 @import url("../blocks/form/__textarea/form__textarea.css");
 @import url("../blocks/form/__text/form__text.css");
 @import url("../blocks/form/__inputs/form__inputs.css");

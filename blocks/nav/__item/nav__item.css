@@ -1,10 +1,15 @@
 .nav__item {
-margin-right: 39px; 
+  margin-right: 39px;
+  transition: opacity .2s;
+}
+
+.nav__item:hover {
+    opacity: .6;
 }
 @media (max-width : 768px) {
-
-.nav__item {
-  margin: 0;
-
+  
+  .nav__item {
+    margin: 0;
+  
+    }
   }
-}

@@ -7,21 +7,17 @@
 }
 
 @media (max-width : 768px) {
-
   .nav__link {
-  font-size: 22px;
-  padding: 15px 0 15px 30px;
+    font-size: 22px;
+    padding: 15px 0 15px 30px;
   }
 
   .nav__link:hover{
-
-   background-color: #fed2b0;
+    background-color: #fed2b0;
   }
   
   .navigation__link:focus{
     outline: none;
     border: 3px solid #fed2b0;
   }
-  
-
 }
