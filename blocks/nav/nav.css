@@ -1,5 +1,9 @@
 .nav {
-  width: 100%;
+  width: 89.2%;
   font-weight: bold;
   font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin: 0 auto;
 }
