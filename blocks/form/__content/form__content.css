@@ -1,0 +1,6 @@
+.form__content {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-top: 175px;
+}
