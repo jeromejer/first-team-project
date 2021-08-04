@@ -1,0 +1,14 @@
+.button__img {
+  display: none;
+}
+@media (max-width: 768px) {
+  .button__img{
+    display: block;
+    position: fixed;
+    top: 15px;
+    right: 30px;
+    width: 50px;
+    height: 40px;
+
+  }
+}

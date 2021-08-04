@@ -2,16 +2,20 @@
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
 
+
 @import url("../blocks/nav/nav.css");
 @import url("../blocks/nav/nav.css");
-@import url("../blocks/nav/nav__list/nav__list.css");
-@import url("../blocks/nav/nav__link/nav__link.css");
-@import url("../blocks/nav/nav__item/nav__item.css");
-@import url("../blocks/nav/nav__toggle/nav__toggle.css");
-@import url("../blocks/nav/nav__burger/nav__burger.css");
-@import url("../blocks/nav/nav__burger-icon/nav__burger-icon.css");
+@import url("../blocks/nav/__list/nav__list.css");
+@import url("../blocks/nav/__link/nav__link.css");
+@import url("../blocks/nav/__item/nav__item.css");
+@import url("../blocks/nav/__toggle/nav__toggle.css");
+@import url("../blocks/nav/__burger/nav__burger.css");
+@import url("../blocks/nav/__burger-icon/nav__burger-icon.css");
 
 @import url("../blocks/button/button.css");
+
+@import url("../blocks/button/button__text/button__text.css");
+@import url("../blocks/button/__img/button__img.css");
 
 @import url("../blocks/welcome/welcome.css");
 @import url("../blocks/welcome/__text/welcome__text.css");
