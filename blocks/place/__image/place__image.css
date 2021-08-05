@@ -4,8 +4,9 @@
 	object-fit: cover;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 768px) {
 	.place__image {
 		order: 1;
+		height: 79vw;
 	}
 }

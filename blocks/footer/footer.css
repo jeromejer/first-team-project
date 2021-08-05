@@ -1,10 +1,10 @@
 .footer {
 	max-width: 1280px;
 	width: 100%;
-	min-height: 70vh;
+	min-height: 65vh;
 	height: 100%;
 	background-color: #fecda7;
-	margin-top: 144px;
+	margin-top: 142px;
 	display: flex;
 	align-items: center;
 	justify-content: center;

@@ -6,12 +6,6 @@
 
 @media screen and (max-width: 768px) {
 	.people-says {
-		padding-top: 60px;
-	}
-}
-
-@media screen and (max-width: 426px) {
-	.people-says {
 		padding-top: 30px;
 	}
 }
