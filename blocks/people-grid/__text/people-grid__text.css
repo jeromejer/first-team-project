@@ -1,5 +1,11 @@
 .people-grid__text {
-    margin: 27px 0 0 0;
-    font-size: 12px;
-    line-height: 20px;
+	margin: 27px 0 0 0;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+@media screen and (max-width: 426px) {
+	.people-grid__text {
+		text-align: center;
+	}
 }

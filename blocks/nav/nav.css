@@ -1,25 +1,23 @@
 .nav {
-  width: 89.2%;
-  box-sizing: border-box;
-  font-weight: bold;
-  font-size: 13px;
-  display: flex;
-  justify-content: space-between;
-  padding-top: 50px;
-  margin: 0 auto;
-  background-color: #fff;
+	width: 89.2%;
+	box-sizing: border-box;
+	font-weight: bold;
+	font-size: 13px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	margin: 0 auto;
+	background-color: #fff;
 }
 
-@media (max-width : 768px) {
-
-  .nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    width: 100%;
-  }
-  
-  }
+@media (max-width: 768px) {
+	.nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		width: 100%;
+	}
+}

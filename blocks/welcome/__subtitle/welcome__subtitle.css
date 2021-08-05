@@ -8,3 +8,10 @@
   font-weight: bold;
   letter-spacing: 0.15px;
 }
+
+@media screen and (max-width: 767px) {
+  .welcome__subtitle {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}

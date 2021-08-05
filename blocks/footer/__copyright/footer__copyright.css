@@ -1,6 +1,12 @@
 .footer__copyright {
-    margin: 0;
-    font-size: 36px;
-    font-weight: bold;
-    color: black;
+	margin: 0;
+	font-size: 37px;
+	font-weight: bold;
+	color: black;
+}
+
+@media screen and (max-width: 768px) {
+	.footer__copyright {
+		font-size: 33px;
+	}
 }

@@ -1,5 +1,16 @@
 .people-grid__column {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
+	max-width: 245px;
 }
 
+.people-grid__column:hover {
+	transform: scale(1.1);
+}
+
+@media screen and (max-width: 426px) {
+	.people-grid__column {
+		max-width: 245px;
+		margin: auto;
+	}
+}

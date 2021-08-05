@@ -1,11 +1,18 @@
 .footer {
-    max-width: 1280px;
-    width: 100%;
-    min-height: 78vh;
-    height: 100%;
-    background-color: #fecda7;
-    margin-top: 145px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	max-width: 1280px;
+	width: 100%;
+	min-height: 70vh;
+	height: 100%;
+	background-color: #fecda7;
+	margin-top: 144px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+	.footer {
+		min-height: 25vh;
+		margin-top: 110px;
+	}
 }

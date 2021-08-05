@@ -1,5 +1,6 @@
 .form__inputs {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	max-width: 320px;
 }

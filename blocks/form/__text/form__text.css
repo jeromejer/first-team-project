@@ -1,9 +1,9 @@
 .form__text {
-    border-radius: 9px;
-    border: 1px solid #dad6d3;
-    margin-top: 20px;
-    background: #f0f0f0a1;
-    height: 39px;
-    padding-left: 15px;
-    outline: none;
+	border-radius: 9px;
+	border: 1px solid #dad6d3;
+	margin-top: 20px;
+	background: #f0f0f0a1;
+	height: 39px;
+	padding-left: 15px;
+	outline: none;
 }

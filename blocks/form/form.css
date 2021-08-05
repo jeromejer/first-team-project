@@ -1,13 +1,13 @@
 .form {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    border: none;
-    position: absolute;
-    top: 0;
-    align-items: center;
-    height: 100vh;
-    background-color: #cac7c7ed;
-    max-width: 1280px;
+	display: none;
+	flex-direction: column;
+	width: 100%;
+	border: none;
+	position: absolute;
+	top: 0;
+	align-items: center;
+	height: 100vh;
+	background-color: #cac7c7ed;
+	max-width: 1280px;
 	position: fixed;
 }

@@ -1,8 +1,22 @@
 .people-grid {
-    max-width: 89.2%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 245px));
-    padding-top: 123px;
-    justify-content: space-between;
+	max-width: 89.2%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 54px;
+	padding-top: 124px;
+	justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+	.people-grid {
+		padding-top: 70px;
+	}
+}
+
+@media screen and (max-width: 426px) {
+	.people-grid {
+		padding-top: 30px;
+		grid-template-columns: 1fr;
+	}
 }

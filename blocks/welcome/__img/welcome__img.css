@@ -1,0 +1,11 @@
+.welcome__img {
+  width: 356px;
+  height: 356px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome__img {
+    max-width: 320px;
+    max-height: 320px
+  }

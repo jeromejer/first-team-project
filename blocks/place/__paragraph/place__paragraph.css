@@ -1,12 +1,18 @@
 .place__paragraph {
-    margin: 0;
-    font-size: 13px;
-    margin-top: 22px;
-    line-height: 20px;
-    max-width: 370px;
-    color: #000;
+	margin: 0;
+	font-size: 13px;
+	margin-top: 22px;
+	line-height: 20px;
+	max-width: 370px;
+	color: #000;
 }
 
 .place__paragraph:first-child {
-    margin-top: 0;
+	margin-top: 0;
+}
+
+@media screen and (max-width: 320px) {
+	.place__paragraph:first-child {
+		margin-top: 22px;
+	}
 }

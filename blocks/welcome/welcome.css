@@ -1,9 +1,18 @@
 .welcome {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 85px;
-    justify-items: center;
-    gap: 75px;
-    max-width: 89.2%;
-    margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 85px;
+	justify-items: center;
+	gap: 75px;
+	max-width: 89.2%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 426px) {
+	.welcome {
+		grid-template-columns: 1fr;
+		margin: 0 auto;
+		max-width: 320px;
+		width: 100%;
+	}
 }

@@ -1,3 +1,10 @@
 .welcome__text {
-    padding-top: 21%;
+	padding-top: 21%;
+}
+
+@media (max-width: 426px) {
+	.welcome__text {
+		padding-top: 10px;
+		text-align: center;
+	}
 }
