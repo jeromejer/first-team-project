@@ -21,4 +21,4 @@
 * все изображения оптимизированы, уменьшив их вес без потери качества
 
 
-Ссылка на GitHub Pages https://vakulina.github.io/first-team-project/index.html
+Ссылка на GitHub Pages https://jeromejer.github.io/first-team-project/index.html
